@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProfileApplication</string>
+    <string name="title_activity_paper_view">Game View</string>
+
+    <!-- Profile strings -->
+    <string name="txt_title_completed">Completed</string>
+    <string name="txt_title_progress">In Progress</string>
+    <string name="txt_no_games">None</string>
+    <string name="txt_nav">First  Prev  1  Next  Last</string>
+    <string name="txt_sort_date">Date</string>
+    <string name="txt_sort_rating">Rating</string>
+
+</resources>

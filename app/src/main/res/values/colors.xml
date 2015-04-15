@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ============== -->
+    <!-- Profile colors -->
+    <!-- ============== -->
+    <color name="profile_header_background">#DD7722</color>
+
+    <color name="profile_content_title">#DD7722</color>
+    <color name="profile_selected_sort">#AA4400</color>
+    <color name="profile_content_background">#2277DD</color>
+    <color name="profile_nav_bar_background">#FFDDDD</color>
+    <color name="profile_list_background">#FFFFFF</color>
+    <color name="profile_text_color">#FFFFFF</color>
+</resources>

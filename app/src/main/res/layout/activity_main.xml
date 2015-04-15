@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity"
+    android:background="#2277DD">
+
+    <com.example.main.profileapplication.customViews.parallaxScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ad_placeholder"
+        android:background="#2277DD">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:id="@+id/header"
+                style="@style/ProfileHeader">
+
+                <TextView
+                    android:id="@+id/txt_profile_header"
+                    android:layout_toLeftOf="@+id/strut"
+                    style="@style/ProfileHeaderText" />
+
+                <View
+                    android:id="@+id/strut"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true" />
+
+                <ImageView
+                    android:id="@+id/img_profile_header"
+                    android:layout_toRightOf="@+id/strut"
+                    style="@style/ProfileHeaderImage" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/content"
+                style="@style/ProfileContentLayout">
+
+                <LinearLayout
+                    android:id="@+id/comp_sort_layout"
+                    style="@style/ProfileTitleLayout">
+                    <TextView
+                        android:id="@+id/txt_profile_completed"
+                        android:text="@string/txt_title_completed"
+                        style="@style/ProfileContentTitle" />
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+                    <TextView
+                        android:id="@+id/txt_sort_comp_date"
+                        android:text="@string/txt_sort_date"
+                        android:background="@color/profile_selected_sort"
+                        style="@style/ProfileSortingText"/>
+                    <TextView
+                        android:id="@+id/txt_sort_comp_rating"
+                        android:text="@string/txt_sort_rating"
+                        style="@style/ProfileSortingText"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/list_profile_completed"
+                    style="@style/ProfileContentList" />
+                <ProgressBar
+                    android:id="@+id/list_profile_comp_loader"
+                    style="@style/ProfileListLoader" />
+                <TextView
+                    android:id="@+id/navbar_completed"
+                    style="@style/ProfileNavBar"/>
+
+
+                <LinearLayout
+                    android:id="@+id/prog_sort_layout"
+                    style="@style/ProfileTitleLayout">
+                    <TextView
+                        android:id="@+id/txt_profile_progress"
+                        android:text="@string/txt_title_progress"
+                        style="@style/ProfileContentTitle" />
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+                    <TextView
+                        android:id="@+id/txt_sort_prog_date"
+                        android:text="@string/txt_sort_date"
+                        android:background="@color/profile_selected_sort"
+                        style="@style/ProfileSortingText"/>
+                    <TextView
+                        android:id="@+id/txt_sort_prog_rating"
+                        android:text="@string/txt_sort_rating"
+                        style="@style/ProfileSortingText"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/list_profile_progress"
+                    style="@style/ProfileContentList" />
+                <ProgressBar
+                    android:id="@+id/list_profile_prog_loader"
+                    style="@style/ProfileListLoader" />
+                <TextView
+                    android:id="@+id/navbar_progress"
+                    style="@style/ProfileNavBar"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.example.main.profileapplication.customViews.parallaxScrollView>
+
+    <TextView
+        android:id="@+id/ad_placeholder"
+        android:layout_alignParentBottom="true"
+        android:minHeight="40dp"
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

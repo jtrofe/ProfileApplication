@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Profile dimensions -->
+    <dimen name="profile_min_height">60dp</dimen>
+    <dimen name="profile_max_height">120dp</dimen>
+</resources>

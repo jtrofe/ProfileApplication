@@ -1,0 +1,131 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <!-- ============== -->
+    <!-- Profile styles -->
+    <!-- ============== -->
+        <style name="ProfileHeader">
+            <item name="android:orientation">horizontal</item>
+            <item name="android:background">@color/profile_header_background</item>
+            <item name="android:layout_width">fill_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:minHeight">@dimen/profile_min_height</item>
+            <item name="android:maxHeight">@dimen/profile_max_height</item>
+        </style>
+        <style name="ProfileHeaderText">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_centerVertical">true</item>
+            <item name="android:textSize">40sp</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:textColor">@color/profile_text_color</item>
+            <item name="android:paddingRight">10dp</item>
+        </style>
+        <style name="ProfileHeaderImage">
+            <item name="android:layout_centerVertical">true</item>
+            <item name="android:layout_width">fill_parent</item>
+            <item name="android:layout_height">fill_parent</item>
+            <item name="android:adjustViewBounds">true</item>
+        </style>
+    
+        <style name="ProfileContentLayout">
+            <item name="android:layout_width">fill_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:orientation">vertical</item>
+            <item name="android:background">@color/profile_content_background</item>
+        </style>
+        <style name="ProfileContentTitle">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:textColor">@color/profile_text_color</item>
+            <item name="android:textSize">18sp</item>
+            <item name="android:padding">4dp</item>
+            <item name="android:gravity">left</item>
+            <item name="android:background">@color/profile_content_title</item>
+        </style>
+        <style name="ProfileContentList">
+            <item name="android:orientation">vertical</item>
+            <item name="android:layout_width">fill_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:background">@color/profile_list_background</item>
+        </style>
+        <style name="ProfileNavBar">
+            <item name="android:text">@string/txt_nav</item>
+            <item name="android:layout_width">fill_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:gravity">right</item>
+            <item name="android:background">@color/profile_nav_bar_background</item>
+            <item name="android:paddingTop">4dp</item>
+            <item name="android:paddingBottom">4dp</item>
+            <item name="android:paddingRight">10dp</item>
+            <item name="android:textSize">14sp</item>
+            <item name="android:layout_marginBottom">20dp</item>
+        </style>
+        <style name="ProfileListLoader">
+            <item name="android:layout_width">fill_parent</item>
+            <item name="android:background">@color/profile_list_background</item>
+            <item name="android:layout_height">wrap_content</item>
+        </style>
+        <style name="ProfileListItem">
+            <item name="android:layout_width">fill_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:gravity">right|center_vertical</item>
+            <item name="android:minHeight">40dp</item>
+            <item name="android:textSize">20sp</item>
+            <item name="android:paddingRight">10dp</item>
+            <item name="android:paddingLeft">40dp</item>
+            <item name="android:paddingTop">8dp</item>
+            <item name="android:paddingBottom">8dp</item>
+            <item name="android:background">@drawable/profile_list_item_background</item>
+        </style>
+        <style name="ProfileTitleLayout">
+            <item name="android:orientation">horizontal</item>
+            <item name="android:layout_width">fill_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_alignParentRight">true</item>
+            <item name="android:gravity">right</item>
+            <item name="android:background">@color/profile_content_title</item>
+            <item name="android:paddingRight">15dp</item>
+            <item name="android:paddingLeft">15dp</item>
+        </style>
+        <style name="ProfileSortingText">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:background">@color/profile_content_title</item>
+            <item name="android:textColor">@color/profile_text_color</item>
+            <item name="android:paddingLeft">8dp</item>
+            <item name="android:paddingRight">8dp</item>
+            <item name="android:paddingTop">4dp</item>
+            <item name="android:paddingBottom">4dp</item>
+            <item name="android:layout_alignParentBottom">true</item>
+            <item name="android:minWidth">50dp</item>
+        </style>
+
+    <!-- ================= -->
+    <!-- Paper View Styles -->
+    <!-- ================= -->
+        <style name="PaperViewCaption">
+            <item name="android:background">#FFFFFF</item>
+            <item name="android:minHeight">40dp</item>
+            <item name="android:layout_width">fill_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:visibility">gone</item>
+            <item name="android:textSize">20sp</item>
+            <item name="android:padding">4dp</item>
+            <item name="android:layout_marginBottom">2dp</item>
+        </style>
+        <style name="PaperViewDrawing">
+            <item name="android:background">#FFFFFF</item>
+            <item name="android:visibility">gone</item>
+            <item name="android:padding">10dp</item>
+            <item name="android:layout_width">fill_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_marginBottom">2dp</item>
+        </style>
+
+</resources>
